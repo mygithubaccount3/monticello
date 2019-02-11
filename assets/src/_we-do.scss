@@ -1,0 +1,163 @@
+.we-do {
+  padding-top: 12.5%;
+
+  &__title {
+    color: #2c4058;
+    font-family: Gotham;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: auto;
+    margin-bottom: 102px;
+    text-transform: uppercase;
+    width: 27%;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    &--bottom {
+      margin-top: 200px;
+    }
+  }
+
+  .image-wrapper {
+    /*overflow-x: hidden;*/
+    position: relative;
+    width: 59%;
+
+    &--right {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  .news__slider > img {
+    width: 20%;
+  }
+
+  &__box {
+    background-color: #55b7ff;
+    margin-bottom: 7px;
+    position: relative;
+    top: 0;
+    width: 32%;
+
+    &--blue {
+      padding-bottom: 162px;
+      width: 54.2%;
+    }
+
+    &--filipe {
+      position: absolute;
+      top: 70px;
+      left: 15px;
+      width: 89%;
+    }
+
+    &--right {
+      background-color: #7e5aff;
+    }
+
+    &--purple {
+      background-color: unset;
+      width: 82.5%;
+    }
+
+    &--commerce {
+      position: absolute;
+      top: 71px;
+      left: 63px;
+      width: 89%;
+      z-index: 1;
+    }
+  }
+
+  &__item {
+    margin-top: 85px;
+    width: 40.5%;
+  }
+
+  &__item-title {
+    color: #2c4058;
+    font-family: Gotham;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 31px;
+    text-transform: uppercase;
+
+    &::before {
+      content: "one world\A\A";
+      display: block;
+      line-height: 0.93;
+      white-space: pre;
+
+      /* Text style for "One World" */
+      font-family: "Gotham - Book";
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    &--left {
+      margin-top: 42px;
+      padding-left: 14px;
+
+      &::before {
+        content: "international\A\A";
+        display: block;
+        white-space: pre;
+      }
+    }
+  }
+
+  &__desc {
+    color: #4b5562;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 96%;
+
+    &--left {
+      letter-spacing: 0.09px;
+      padding-left: 14px;
+    }
+  }
+
+  &__link {
+    border: 1px solid black;
+    color: #2c4058;
+    display: block;
+    font-family: "Gotham - Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.75;
+    margin-top: 33px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 39%;
+
+    &--left {
+      margin-left: 15px;
+      padding-top: 7px;
+      width: 39%;
+    }
+  }
+
+  &__location {
+    color: #2c4058;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+    margin-top: 50px;
+
+    &::before {
+
+    }
+  }
+}
