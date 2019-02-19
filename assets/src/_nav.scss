@@ -11,14 +11,45 @@
   &__menu {
     display: inline-flex;
     justify-content: space-between;
+    list-style-position: inside;
     list-style-type: circle;
     margin-top: 18px;
     margin-left: 34px;
     padding-left: 10px;
-    width: 49.8%;
+    width: 53.8%;
 
     &__item {
       width: 12%;
+    }
+  }
+
+  &__link {
+    color: #ffffff;
+    font-family: "Gotham - Book", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 31px;
+    text-transform: uppercase;
+
+    &:hover {
+      list-style-type: disc;
+    }
+
+    & > span {
+      right: 22px;
+      bottom: 3px;
+      position: relative;
+      font-size: 14px;
+    }
+
+    &:nth-child(2) {
+      position: relative;
+      left: -12px;
+    }
+
+    &:nth-child(3) {
+      position: relative;
+      left: -21px;
     }
   }
 
@@ -29,82 +60,49 @@
     padding-left: 17px;
     width: 15%;
   }
-}
 
-.social__item {
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 8px;
+  &__item {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
 
-  &--fb {
-    padding-left: 14px;
-    padding-right: 14px;
+    &--fb {
+      padding-left: 14px;
+      padding-right: 14px;
 
-    &::after {
-      font-family: FontAwesome;
-      content: '\f09a';
-      color: white;
-      vertical-align: bottom;
+      &::after {
+        font-family: FontAwesome;
+        content: '\f09a';
+        color: white;
+        vertical-align: bottom;
+      }
+    }
+
+    &--tw {
+      margin-left: -3px;
+      padding-right: 12px;
+      padding-left: 12px;
+
+      &::after {
+        font-family: FontAwesome;
+        content: '\f099';
+        color: white;
+        vertical-align: bottom;
+      }
+    }
+
+    &--ig {
+      margin-right: -4px;
+      margin-left: -3px;
+      padding-right: 12px;
+      padding-left: 12px;
+
+      &::after {
+        font-family: FontAwesome;
+        content: '\f16d';
+        color: white;
+        vertical-align: bottom;
+      }
     }
   }
-
-  &--tw {
-    margin-left: -3px;
-    padding-right: 12px;
-    padding-left: 12px;
-
-    &::after {
-      font-family: FontAwesome;
-      content: '\f099';
-      color: white;
-      vertical-align: bottom;
-    }
-  }
-
-  &--ig {
-    margin-right: -4px;
-    margin-left: -3px;
-    padding-right: 12px;
-    padding-left: 12px;
-
-    &::after {
-      font-family: FontAwesome;
-      content: '\f16d';
-      color: white;
-      vertical-align: bottom;
-    }
-  }
-}
-
-.menu__item {
-  color: #ffffff;
-  font-family: "Gotham - Book";
-  font-size: 35px;
-  font-weight: 400;
-  line-height: 31px;
-  text-transform: uppercase;
-
-  &:hover {
-    list-style-type: disc;
-  }
-
-  & > span {
-    bottom: 3px;
-    position: relative;
-    font-size: 14px;
-  }
-
-  &:nth-child(2) {
-    position: relative;
-    left: -12px;
-  }
-
-  &:nth-child(3) {
-    position: relative;
-    left: -21px;
-  }
-}
-
-.news {
-  padding-top: 198px;
 }

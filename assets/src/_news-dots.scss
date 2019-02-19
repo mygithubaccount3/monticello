@@ -1,0 +1,60 @@
+.news-dots {
+  display: block;
+  width: 39%;
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  text-align: center;
+
+  & li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+
+    & button {
+      font-size: 0;
+      line-height: 0;
+      display: block;
+      width: 20px;
+      height: 20px;
+      padding: 5px;
+      cursor: pointer;
+      color: transparent;
+      border: 0;
+      outline: none;
+      background: transparent;
+
+      &:hover,
+      &:focus {
+        outline: none;
+      }
+
+      &:before {
+        font-family: FontAwesome;
+        font-size: 6px;
+        font-weight: 900;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: '\f1db';
+        text-align: center;
+        opacity: 0.5;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+
+    &.slick-active button:before {
+      opacity: .75;
+      content: "\f111";
+    }
+  }
+}

@@ -22,26 +22,12 @@
 
 body {
   margin: 0;
-  /*overflow-x: hidden;*/
 }
 
 img {
   width: 100%;
   height: auto;
 }
-
-.slick-slide {
-  margin: 0 27px;
-}
-
-.slick-list {
-  margin: 0 -27px;
-}
-
-/*.social__item::after {
-  width: 1em;
-  text-align: center;
-}*/
 
 header {
   align-items: center;
@@ -54,9 +40,5 @@ header {
 }
 
 .arrow {
-  padding-bottom: 40px;
-}
-
-.slick-initialized {
-  overflow: hidden;
+  padding-bottom: 41px;
 }

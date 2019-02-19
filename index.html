@@ -6,23 +6,23 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/dist/main.css">
-
 </head>
 <body>
 <header>
     <section class="nav">
         <img src="images/logo.svg" alt="Logo" class="nav__logo">
         <ul class="nav__menu">
-            <li class="menu__item"><span>About us</span></li><!--BEM-->
-            <li class="menu__item"><span>Projects</span></li>
-            <li class="menu__item"><span>News</span></li>
-            <li class="menu__item"><span>Contact</span></li>
+            <li class="nav__link"><span>About us</span></li>
+            <li class="nav__link"><span>Projects</span></li>
+            <li class="nav__link"><span>News</span></li>
+            <li class="nav__link"><span>Contact</span></li>
         </ul>
         <ul class="nav__social">
-            <li class="social__item social__item--fb"></li>
-            <li class="social__item social__item--tw"></li>
-            <li class="social__item social__item--ig"></li>
+            <li class="nav__item nav__item--fb"></li>
+            <li class="nav__item nav__item--tw"></li>
+            <li class="nav__item nav__item--ig"></li>
         </ul>
     </section>
     <section class="heading">
@@ -36,7 +36,7 @@
         </div>
         <div>
             <h1 class="heading__title">Simple & mordern</h1>
-        <p class="heading__tagline">We make the world's beautiful every day</p></div>
+            <p class="heading__tagline">We make the world's beautiful every day</p></div>
         <div>
             <h1 class="heading__title">Simple & mordern</h1>
             <p class="heading__tagline">We make the world's beautiful every day</p>
@@ -52,11 +52,9 @@
     <section class="we-do">
         <h2 class="we-do__title">What we do</h2>
         <div class="we-do__wrapper">
-            <div class="image-wrapper">
+            <div class="we-do__image-wrapper">
                 <img src="images/blue.svg" alt="" class="we-do__box we-do__box--blue">
-                <img src="images/joel-filipe.png" alt="" class="we-do__box we-do__box--filipe">
             </div>
-
             <div class="we-do__item">
                 <h3 class="we-do__item-title">trade center</h3>
                 <p class="we-do__desc">Increasing prosperity in our lives can be accomplished by having the right frame
@@ -73,8 +71,7 @@
                 <a href="#" class="we-do__link we-do__link--left">more details</a>
                 <div class="we-do__location">Hong Kong - 1588 Feet</div>
             </div>
-            <div class="image-wrapper image-wrapper--right">
-                <img src="images/commerce.png" alt="" class="we-do__box we-do__box--commerce">
+            <div class="we-do__image-wrapper we-do__image-wrapper--right">
                 <img src="images/purple.svg" alt="" class="we-do__box we-do__box--purple">
             </div>
         </div>
@@ -82,55 +79,189 @@
     <section class="news">
         <h3 class="news__title">Latest news</h3>
         <div class="news__slider">
-            <img src="images/slide1.png" alt="">
-            <img src="images/slide2.png" alt="">
-            <img src="images/slide3.png" alt="">
-            <img src="images/slide1.png" alt="">
-            <img src="images/slide2.png" alt="">
-            <img src="images/slide3.png" alt="">
-            <img src="images/slide1.png" alt="">
-            <img src="images/slide2.png" alt="">
-            <img src="images/slide3.png" alt="">
-            <img src="images/slide1.png" alt="">
-            <img src="images/slide2.png" alt="">
-            <img src="images/slide3.png" alt="">
-            <img src="images/slide1.png" alt="">
-            <img src="images/slide2.png" alt="">
-            <img src="images/slide3.png" alt="">
+            <div class="news__slide">
+                <img src="images/slide1.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide2.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide3.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide1.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide2.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide3.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide1.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide2.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide3.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide1.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide2.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide3.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide1.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide2.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
+            <div class="news__slide">
+                <img src="images/slide3.png" alt="">
+                <div class="news__description">
+                    <h4>See The Unmatched Beauty Of The Great. Lakes.</h4>
+                    <p>Free directories: directories are perfect for customers that are... searching for</p>
+                    <img src="" alt=""><span></span><span></span>
+                </div>
+            </div>
         </div>
     </section>
     <section class="gallery">
         <h3 class="gallery__title">Gallery</h3>
-        <div class="gallery__slider"></div>
+        <div class="gallery__box">
+            <div class="big-image-wrapper">
+                <a href="images/woman.jpeg" class="gallery__item" data-fancybox="images">
+                    <img src="images/woman-small.jpeg" alt="">
+                </a>
+            </div>
+            <div class="small-images-wrapper">
+                <a href="images/graffiti.jpeg" class="gallery__item" data-fancybox="images">
+                    <img src="images/graffiti-small.jpeg" alt="">
+                </a>
+                <a href="images/winter.jpeg" class="gallery__item" data-fancybox="images">
+                    <img src="images/winter-small.jpeg" alt="">
+                </a>
+                <a href="images/plants.jpeg" class="gallery__item" data-fancybox="images">
+                    <img src="images/plants-small.jpeg" alt="">
+                </a>
+                <a href="images/mountain.jpeg" class="gallery__item" data-fancybox="images">
+                    <img src="images/mountain-small.jpeg" alt="">
+                </a>
+            </div>
+        </div>
         <a href="#" class="gallery__more">See more</a>
     </section>
 </main>
-<!--<footer>
+<footer>
     <form action="" class="contact">
         <h3 class="contact__title">get in touch</h3>
-        <label for="" class="contact__info">91 Nolan Extensions Suite 670</label>
-        <label for="" class="contact__info">+001 356-868-2454</label>
-        <label for="" class="contact__info">gahuy93@gmail.com</label>
-        <label for="" class="contact__info">From 07:05AM to 19:30PM</label>
-        <input type="text" class="contact__name">
-        <input type="text" class="contact__name">
-        <submit class="contact__submit">submit</submit>
+        <div class="contact__info-wrapper">
+            <label for="" class="contact__info">91 Nolan Extensions Suite 670</label>
+            <label for="" class="contact__info">+001 356-868-2454</label>
+            <label for="" class="contact__info">gahuy93@gmail.com</label>
+            <label for="" class="contact__info">From 07:05AM to 19:30PM</label>
+        </div>
+        <div class="contact__input-wrapper">
+            <input type="text" class="contact__name" placeholder="Mollie Medina">
+            <input type="text" class="contact__name" placeholder="Email">
+            <button type="submit" class="contact__submit">submit</button>
+        </div>
     </form>
-    <div class="map"></div>
-    <section class="credit">
-        <img src="" alt="" class="credit__logo">
-        <span class="credit__item">Copyrights © 2017 Monticello Group</span>
-        <span class="credit__item">Made with  by Ga Huy</span>
+    <div id="map"></div>
+    <section class="footer">
+        <div class="footer__wrapper">
+            <div>
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <ul class="footer__social">
+                <li class="footer__item footer__item--fb"></li>
+                <li class="footer__item footer__item--tw"></li>
+                <li class="footer__item footer__item--ig"></li>
+            </ul>
+            <div>Copyrights © 2017 Monticello    |    Made with <span></span> by Ga Huy</div>
+        </div>
     </section>
-    <ul class="social">
-        <li class="social__item social__item&#45;&#45;fb"></li>
-        <li class="social__item social__item&#45;&#45;tw"></li>
-        <li class="social__item social__item&#45;&#45;ig"></li>
-    </ul>
-</footer>-->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="assets/dist/header-slider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
+<script src="assets/dist/slider.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbbG0hmgpu6gKDAxeEVPtAZlTyuZ2Cxmc"></script>
+<script src="assets/dist/map.js"></script>
 </body>
 </html>

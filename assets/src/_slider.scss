@@ -1,0 +1,26 @@
+.slick-slide {
+  margin: 0 27px;
+}
+
+.slick-list {
+  margin: 0 -27px;
+}
+
+.slick-initialized {
+  overflow: hidden;
+}
+
+.slick-dots {
+  position: absolute;
+  right: 0;
+  top: 41%;
+  width: 2%;
+
+  & li button::before {
+    color: white;
+  }
+
+  & li.slick-active button:before {
+    color: white;
+  }
+}
